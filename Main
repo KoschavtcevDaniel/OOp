@@ -1,0 +1,15 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String []args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Input number");
+        int x = sc.nextInt();
+        List l = new List(x);
+        while (x != 0){
+            x = sc.nextInt();
+            l.add(x);
+        }
+        l.print();
+    }
+}
